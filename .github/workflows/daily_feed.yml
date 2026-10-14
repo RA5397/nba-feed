@@ -1,0 +1,41 @@
+name: NBA daily feed
+
+# Pulls today's games, DraftKings game lines, DraftKings player props and
+# injuries from ESPN, verifies every page, and commits the files to feed/out/.
+# No API key needed. Times are UTC: 14:00 and 21:30 UTC = 10:00 AM and 5:30 PM ET
+# (during EDT), so there is a morning board and a pre-tip refresh.
+
+on:
+  schedule:
+    - cron: "0 14 * * *"
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Slate date YYYY-MM-DD (blank = today ET)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run offline tests
+        run: python -I feed/test_fetch_daily.py
+      - name: Pull feed
+        env:
+          PROP_SIDE_ORDER: ${{ vars.PROP_SIDE_ORDER || 'UNVERIFIED' }}
+        run: python -I feed/fetch_daily.py ${{ github.event.inputs.date }}
+      - name: Commit
+        run: |
+          git config user.name "nba-feed-bot"
+          git config user.email "nba-feed-bot@users.noreply.github.com"
+          git add feed/out
+          git diff --cached --quiet || git commit -m "feed: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
