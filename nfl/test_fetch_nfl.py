@@ -53,4 +53,16 @@ sb = {"events": [{"id": "401872995", "date": "2026-10-16T00:15Z", "status": {"ty
 g = fd.parse_games(sb)[0]
 assert g["spread_home"] == 2.5 and g["implied_away"] == 23.0 and g["implied_home"] == 20.5
 print("PASS NFL game line: SEA -2.5 / 43.5 -> SEA 23.0, DEN 20.5 (road favorite sign handled)")
+import datetime as dt
+calls = []
+def sb_get(url, tries=4):
+    calls.append(url)
+    assert "-" not in url.split("dates=")[1], "date ranges are rejected by ESPN NFL"
+    day = url.split("dates=")[1]
+    ev = {"id": "401872995"} if day in ("20261015",) else {"id": "X" + day}
+    return {"events": [ev, {"id": "401872995"}]}     # duplicate across days must be merged
+fd.get_json = sb_get
+w = fn.fetch_window(dt.date(2026, 10, 14), 8)
+assert len(calls) == 8 and len({e["id"] for e in w["events"]}) == len(w["events"])
+print(f"PASS week window: 8 single-date calls, {len(w['events'])} unique events, no date-range URL")
 print("ALL NFL TESTS PASS")

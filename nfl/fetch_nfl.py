@@ -37,6 +37,19 @@ def save_gz(path, obj):
         json.dump(obj, f)
 
 
+def fetch_window(d0, days):
+    """ESPN's NFL scoreboard rejects date ranges (verified Oct 14: '?dates=A-B' errors), so pull
+    one date at a time and merge events by id."""
+    events, seen = [], set()
+    for k in range(days):
+        day = d0 + dt.timedelta(days=k)
+        sb = fd.get_json(f"{fd.SITE}/scoreboard?dates={day:%Y%m%d}")
+        for ev in sb.get("events", []):
+            if ev["id"] not in seen:
+                seen.add(ev["id"]); events.append(ev)
+    return {"events": events}
+
+
 def fetch_props(event_id, rawdir):
     base = f"{fd.CORE}/events/{event_id}/competitions/{event_id}/odds/{fd.DK}/propBets"
     first = fd.get_json(f"{base}?limit={PAGE}&page=1")
@@ -91,13 +104,13 @@ def fetch_props(event_id, rawdir):
 def main():
     start = sys.argv[1] if len(sys.argv) > 1 else dt.datetime.now(ZoneInfo("America/New_York")).date().isoformat()
     d0 = dt.date.fromisoformat(start)
-    d1 = d0 + dt.timedelta(days=7)
+    d1 = d0 + dt.timedelta(days=7)          # window = d0 .. d0+7 (8 dates)
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "out", start)
     raw = os.path.join(out, "raw")
     os.makedirs(raw, exist_ok=True)
     pulled = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
-    sb = fd.get_json(f"{fd.SITE}/scoreboard?dates={d0:%Y%m%d}-{d1:%Y%m%d}&limit=50")
+    sb = fetch_window(d0, 8)
     save_gz(os.path.join(raw, "scoreboard.json.gz"), sb)
     games = [g for g in fd.parse_games(sb) if g["status"] == "STATUS_SCHEDULED"]
     fd.write_csv(os.path.join(out, "games.csv"), games)
