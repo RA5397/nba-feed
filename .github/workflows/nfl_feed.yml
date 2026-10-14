@@ -1,0 +1,41 @@
+name: NFL daily feed
+
+# Pulls every NFL game in the next 7 days: DraftKings spreads/totals, DraftKings player
+# prop lines, and injuries from ESPN. Verifies every page, commits to nfl/out/<date>/.
+# 14:10 UTC daily = 10:10 AM ET (EDT); Sundays also 15:40 UTC = 11:40 AM ET (pre-kickoff refresh).
+# Offset 10 min from the NBA job so the two never push at the same moment.
+
+on:
+  schedule:
+    - cron: "10 14 * * *"
+    - cron: "40 15 * * 0"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Start date YYYY-MM-DD (blank = today ET); pulls the next 7 days"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run offline tests
+        run: python -I nfl/test_fetch_nfl.py
+      - name: Pull NFL feed
+        run: python -I nfl/fetch_nfl.py ${{ github.event.inputs.date }}
+      - name: Commit
+        run: |
+          git config user.name "nba-feed-bot"
+          git config user.email "nba-feed-bot@users.noreply.github.com"
+          git add nfl/out
+          git diff --cached --quiet && exit 0
+          git commit -m "nfl feed: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase
+          git push
