@@ -100,6 +100,9 @@ def parse_games(sb):
             row["spread_home"] = sp
             for side, key in (("home", "homeTeamOdds"), ("away", "awayTeamOdds")):
                 ml = (odds.get(key) or {}).get("moneyLine")
+                if ml is None:   # current ESPN layout: odds.moneyline.{home,away}.{close,open}.odds
+                    mlb = (odds.get("moneyline") or {}).get(side) or {}
+                    ml = (mlb.get("close") or mlb.get("open") or {}).get("odds")
                 row[f"ml_{side}"] = ml
         if row["total"] is not None and row["spread_home"] is not None:
             row["implied_home"] = row["total"] / 2 - row["spread_home"] / 2
