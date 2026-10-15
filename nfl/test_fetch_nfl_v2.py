@@ -157,6 +157,80 @@ check("malformed payload returns [] rather than raising",
       fr.parse_summary({"boxscore": {"players": [{"statistics": [{}]}]}}, "0") == [])
 check("empty payload safe", fr.parse_summary({}, "0") == [] and fr.parse_summary(None, "0") == [])
 
+
+# ---------------------------------------------------------------------------
+# Board verification: the three states seen on the live 2026-10-15 pull.
+print("\n== board verification: live-market drift, short page, no board ==")
+import fetch_nfl as fn2
+import tempfile as _tf
+
+def _page(count, n, total_pages):
+    return {"count": count, "pageCount": total_pages,
+            "items": [{"type": {"id": "8", "name": "Total Passing Yards"},
+                       "athlete": {"$ref": "/athletes/1"},
+                       "current": {"target": {"value": 1.5}},
+                       "open": {"target": {"value": 1.5}}} for _ in range(n)]}
+
+def _run(responder, restarts=3):
+    calls = {"n": 0}
+    def fake(url, tries=4):
+        calls["n"] += 1
+        return responder(url, calls["n"])
+    orig, fn2.fd.get_json = fn2.fd.get_json, fake
+    orig_sleep, fn2.fd.time.sleep = fn2.fd.time.sleep, lambda *_a: None
+    try:
+        with _tf.TemporaryDirectory() as td:
+            return fn2.fetch_props("E", td, save_raw=False, restarts=restarts)
+    finally:
+        fn2.fd.get_json, fn2.fd.time.sleep = orig, orig_sleep
+
+# (a) count moves mid-pull, then settles on the restart -> board KEPT, no drift flag
+state = {"restarted": False}
+def settles(url, n):
+    import re as _r
+    p = int(_r.search(r"page=(\d+)", url).group(1))
+    if p == 1 and n > 1:
+        state["restarted"] = True
+    if not state["restarted"]:
+        return _page(250 if p == 1 else 252, 100 if p < 3 else 50, 3)
+    return _page(250, 100 if p < 3 else 50, 3)
+rows, chk = _run(settles)
+check("drift then settle -> board kept", rows is not None and chk.get("ok") is True)
+check("restart happened", state["restarted"])
+check("no drift flag once it settles", not chk.get("count_drift"))
+
+# (b) count NEVER settles -> board still KEPT (every page complete), flagged.
+# The fixture must keep PAGE SIZES consistent with the count page 1 reported (250 -> 100/100/50)
+# while only the REPORTED count drifts. Otherwise it trips the short-page path instead, which
+# is what the first version of this test did -- the sizes have to stay honest to isolate drift.
+def never_settles(url, n):
+    import re as _r
+    p = int(_r.search(r"page=(\d+)", url).group(1))
+    sizes = {1: 100, 2: 100, 3: 50}
+    reported = 250 if p == 1 else 250 + n      # page 1 anchors count; later pages disagree
+    return _page(reported, sizes[p], 3)
+rows, chk = _run(never_settles)
+check("persistent drift -> board KEPT not discarded", rows is not None,
+      "this is the SEA@DEN case; old code returned None")
+check("flagged count_drift", chk.get("count_drift") is True)
+check("counts_seen recorded", len(chk.get("counts_seen") or []) > 1)
+
+# (c) genuinely short page -> still rejected whole
+def short(url, n):
+    import re as _r
+    p = int(_r.search(r"page=(\d+)", url).group(1))
+    return _page(250, 100 if p == 1 else 95, 3)
+rows, chk = _run(short)
+check("short page -> board still rejected", rows is None and chk.get("ok") is False)
+check("reason recorded", chk.get("reason") == "short page")
+
+# (d) 404 -> no_board, kept out of boards_failed
+def missing(url, n):
+    raise RuntimeError("GET failed after 4 tries: " + url + ": HTTP Error 404: Not Found")
+rows, chk = _run(missing)
+check("404 -> no_board flag", rows is None and chk.get("no_board") is True,
+      "this is the NE@CHI case")
+
 print()
 if FAIL:
     print(f"{len(FAIL)} FAILED: {', '.join(FAIL)}")
