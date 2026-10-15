@@ -1,18 +1,43 @@
 name: NFL daily feed
 
 # Pulls every NFL game in the next 7 days: DraftKings spreads/totals, DraftKings player
-# prop lines, and injuries from ESPN. Verifies every page, commits to nfl/out/<date>/.
-# 14:10 UTC daily = 10:10 AM ET (EDT); Sundays also 15:40 UTC = 11:40 AM ET (pre-kickoff refresh).
+# prop lines, injuries, venue/roof/weather. Verifies every page, commits to nfl/out/<date>/.
+#
+# SCHEDULE (UTC; ET in comments assumes EDT)
+#   14:10 daily       = 10:10 AM ET  -- main board, full pull (raw JSON + injuries)
+#   15:40 Sun         = 11:40 AM ET  -- pre-kickoff refresh (main)
+#   16:50 Sun (close1)= 12:50 PM ET  -- ~10 min before the 1pm window
+#   19:55 Sun (close2)=  3:55 PM ET  -- ~10 min before the late window
+#   00:00 Mon (close3)=  8:00 PM ET  -- ~15 min before SNF
+#   23:50 Thu/Mon     =  7:50 PM ET  -- ~25 min before TNF / MNF
+#
+# WHY THE CLOSING PULLS: `open` is already captured, so a pull right before kickoff gives
+# open -> intraday -> CLOSING line for every prop. Closing Line Value is the only way to
+# measure whether the model beats the market WITHOUT waiting for results to accumulate --
+# an NFL week yields only a handful of independent observations per effect, which is why
+# outcome-based tests kept coming back inconclusive.
+#
+# Snapshot pulls set SNAP=<label>: they write only games_<label>.csv / props_<label>.csv,
+# skip injuries and raw JSON (cheap, keeps the repo small), and never overwrite the morning
+# board. Every pull appends to nfl/line_history.csv, which is the actual time series.
+#
 # Offset 10 min from the NBA job so the two never push at the same moment.
 
 on:
   schedule:
-    - cron: "10 14 * * *"
-    - cron: "40 15 * * 0"
+    - cron: "10 14 * * *"     # main, daily 10:10 ET
+    - cron: "40 15 * * 0"     # main refresh, Sun 11:40 ET
+    - cron: "50 16 * * 0"     # close1, Sun 12:50 ET
+    - cron: "55 19 * * 0"     # close2, Sun 15:55 ET
+    - cron: "0  0  * * 1"     # close3, Sun 20:00 ET
+    - cron: "50 23 * * 4,1"   # TNF / MNF, 19:50 ET
   workflow_dispatch:
     inputs:
       date:
         description: "Start date YYYY-MM-DD (blank = today ET); pulls the next 7 days"
+        required: false
+      snap:
+        description: "Snapshot label (blank/main = full pull; close1|close2|close3 = lines only)"
         required: false
 
 permissions:
@@ -26,16 +51,55 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # Decide the snapshot label from whichever cron fired. A manual dispatch wins.
+      - name: Resolve snapshot label
+        id: snap
+        run: |
+          S="${{ github.event.inputs.snap }}"
+          if [ -z "$S" ]; then
+            case "${{ github.event.schedule }}" in
+              "50 16 * * 0")   S=close1 ;;
+              "55 19 * * 0")   S=close2 ;;
+              "0  0  * * 1")   S=close3 ;;
+              "50 23 * * 4,1") S=close_prime ;;
+              *)               S=main ;;
+            esac
+          fi
+          echo "snap=$S" >> "$GITHUB_OUTPUT"
+          echo "snapshot: $S"
+
       - name: Run offline tests
-        run: python -I nfl/test_fetch_nfl.py
+        run: |
+          python -I nfl/test_fetch_nfl.py
+          python -I nfl/test_fetch_nfl_v2.py
+
       - name: Pull NFL feed
+        env:
+          SNAP: ${{ steps.snap.outputs.snap }}
         run: python -I nfl/fetch_nfl.py ${{ github.event.inputs.date }}
+
+      # Results for games that have finished. Keyed on the SAME athlete_id as props.csv,
+      # which removes the name-join that previously mis-graded picks in both directions.
+      - name: Pull results for finished games
+        if: steps.snap.outputs.snap == 'main'
+        continue-on-error: true
+        run: python -I nfl/fetch_results.py
+
+      # Raw JSON is the bulk of the repo (14 games x ~14 pages, daily). The CSVs are the
+      # dataset and are kept forever; raw is a debugging aid with a short shelf life.
+      - name: Prune raw JSON older than 30 days
+        if: steps.snap.outputs.snap == 'main'
+        run: |
+          find nfl/out -type d -name raw -mtime +30 -exec rm -rf {} + 2>/dev/null || true
+          du -sh nfl/out || true
+
       - name: Commit
         run: |
           git config user.name "nba-feed-bot"
           git config user.email "nba-feed-bot@users.noreply.github.com"
-          git add nfl/out
+          git add nfl/out nfl/line_history.csv
           git diff --cached --quiet && exit 0
-          git commit -m "nfl feed: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit -m "nfl feed (${{ steps.snap.outputs.snap }}): $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase
           git push
