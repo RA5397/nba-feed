@@ -3,88 +3,174 @@
  "snap": "main",
  "schema": 2,
  "window": "2026-10-15..2026-10-22",
- "pulled_utc": "2026-10-15T18:18:40+00:00",
+ "pulled_utc": "2026-10-15T19:51:31+00:00",
  "games": 15,
  "games_with_lines": 15,
  "games_with_dome": 15,
- "prop_rows": 6796,
+ "prop_rows": 8765,
  "priced_prop_rows": 0,
  "injuries": 800,
- "line_history_appended": 6796,
- "boards_ok": 12,
- "boards_failed": [
-  "SEA@DEN",
-  "CHI@ATL",
+ "line_history_appended": 8765,
+ "boards_ok": 14,
+ "boards_no_board": [
   "NE@CHI"
  ],
+ "boards_count_drift": [],
+ "boards_failed": [],
  "files": {
   "games.csv": {
    "exists": true,
    "rows": 15,
    "bytes": 2670,
-   "sha256": "62466714ca3936723c776add9b4d2e7e545807215bb6ea3abcc24eaff8ede126"
+   "sha256": "227aa9ba29bed32f4fd3c585c221a618cbc034b382ba4c0ed7abd1b57f94fbca"
   },
   "props.csv": {
    "exists": true,
-   "rows": 6796,
-   "bytes": 583927,
-   "sha256": "9de4d496446029c68200cf355dceeeecbf9a2a837b1721ff591c3cf2f431f438"
+   "rows": 8765,
+   "bytes": 754520,
+   "sha256": "77ef65caa5001ebb2404ec8306c3c518f824409a7cf2b8fda407c1efdf47a8f1"
   },
   "injuries.csv": {
    "exists": true,
    "rows": 800,
-   "bytes": 121599,
-   "sha256": "0745c708eb195c1e6f28b62148da0ad653c36f22b281490e74cb4e8c8da60cce"
+   "bytes": 121609,
+   "sha256": "87458ab1516b42990596907aea9766538ee41fa1c8183eddb904218a89c7123a"
   }
  },
  "checks": [
   {
    "event_id": "401872995",
-   "count": 1799,
+   "count": 1796,
    "pages": 18,
-   "ok": false,
+   "received": 1796,
+   "ok": true,
+   "kept_full_game_rows": 1097,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1796
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1796
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1796
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1796
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1796
     },
     {
      "page": 6,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1796
     },
     {
      "page": 7,
      "expected": 100,
      "received": 100,
-     "ok": false
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 8,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 9,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 10,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 11,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 12,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 13,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 14,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 15,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 16,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 17,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1796
+    },
+    {
+     "page": 18,
+     "expected": 96,
+     "received": 96,
+     "ok": true,
+     "page_count": 1796
     }
    ],
    "matchup": "SEA@DEN"
@@ -101,307 +187,437 @@
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 6,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 7,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 8,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 9,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 10,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 11,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 12,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 13,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     },
     {
      "page": 14,
      "expected": 61,
      "received": 61,
-     "ok": true
+     "ok": true,
+     "page_count": 1361
     }
    ],
    "matchup": "HOU@JAX"
   },
   {
    "event_id": "401872999",
-   "count": 1253,
-   "pages": 13,
-   "ok": false,
+   "count": 1301,
+   "pages": 14,
+   "received": 1301,
+   "ok": true,
+   "kept_full_game_rows": 723,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1301
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": false
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 3,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 4,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 5,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 6,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 7,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 8,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 9,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 10,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 11,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 12,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 13,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1301
+    },
+    {
+     "page": 14,
+     "expected": 1,
+     "received": 1,
+     "ok": true,
+     "page_count": 1301
     }
    ],
    "matchup": "CHI@ATL"
   },
   {
    "event_id": "401872997",
-   "count": 544,
+   "count": 547,
    "pages": 6,
-   "received": 544,
+   "received": 547,
    "ok": true,
-   "kept_full_game_rows": 325,
+   "kept_full_game_rows": 326,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 547
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 547
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 547
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 547
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 547
     },
     {
      "page": 6,
-     "expected": 44,
-     "received": 44,
-     "ok": true
+     "expected": 47,
+     "received": 47,
+     "ok": true,
+     "page_count": 547
     }
    ],
    "matchup": "BAL@CLE"
   },
   {
    "event_id": "401873003",
-   "count": 1290,
+   "count": 1296,
    "pages": 13,
-   "received": 1290,
+   "received": 1296,
    "ok": true,
-   "kept_full_game_rows": 749,
+   "kept_full_game_rows": 750,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 6,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 7,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 8,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 9,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 10,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 11,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 12,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1296
     },
     {
      "page": 13,
-     "expected": 90,
-     "received": 90,
-     "ok": true
+     "expected": 96,
+     "received": 96,
+     "ok": true,
+     "page_count": 1296
     }
    ],
    "matchup": "TEN@IND"
   },
   {
    "event_id": "401873001",
-   "count": 889,
+   "count": 806,
    "pages": 9,
-   "received": 889,
+   "received": 806,
    "ok": true,
-   "kept_full_game_rows": 518,
+   "kept_full_game_rows": 444,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 806
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 806
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 806
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 806
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 806
     },
     {
      "page": 6,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 806
     },
     {
      "page": 7,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 806
     },
     {
      "page": 8,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 806
     },
     {
      "page": 9,
-     "expected": 89,
-     "received": 89,
-     "ok": true
+     "expected": 6,
+     "received": 6,
+     "ok": true,
+     "page_count": 806
     }
    ],
    "matchup": "NYJ@NE"
@@ -418,321 +634,402 @@
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 6,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 7,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 8,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 9,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 10,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 11,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     },
     {
      "page": 12,
      "expected": 52,
      "received": 52,
-     "ok": true
+     "ok": true,
+     "page_count": 1152
     }
    ],
    "matchup": "NO@NYG"
   },
   {
    "event_id": "401872998",
-   "count": 492,
-   "pages": 5,
-   "received": 492,
+   "count": 542,
+   "pages": 6,
+   "received": 542,
    "ok": true,
-   "kept_full_game_rows": 301,
+   "kept_full_game_rows": 342,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 542
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 542
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 542
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 542
     },
     {
      "page": 5,
-     "expected": 92,
-     "received": 92,
-     "ok": true
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 542
+    },
+    {
+     "page": 6,
+     "expected": 42,
+     "received": 42,
+     "ok": true,
+     "page_count": 542
     }
    ],
    "matchup": "CAR@PHI"
   },
   {
    "event_id": "401873002",
-   "count": 1083,
-   "pages": 11,
-   "received": 1083,
+   "count": 1163,
+   "pages": 12,
+   "received": 1163,
    "ok": true,
-   "kept_full_game_rows": 614,
+   "kept_full_game_rows": 652,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1163
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1163
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1163
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1163
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1163
     },
     {
      "page": 6,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1163
     },
     {
      "page": 7,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1163
     },
     {
      "page": 8,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1163
     },
     {
      "page": 9,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1163
     },
     {
      "page": 10,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1163
     },
     {
      "page": 11,
-     "expected": 83,
-     "received": 83,
-     "ok": true
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1163
+    },
+    {
+     "page": 12,
+     "expected": 63,
+     "received": 63,
+     "ok": true,
+     "page_count": 1163
     }
    ],
    "matchup": "PIT@TB"
   },
   {
    "event_id": "401873004",
-   "count": 1121,
+   "count": 1151,
    "pages": 12,
-   "received": 1121,
+   "received": 1151,
    "ok": true,
-   "kept_full_game_rows": 664,
+   "kept_full_game_rows": 668,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 6,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 7,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 8,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 9,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 10,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 11,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1151
     },
     {
      "page": 12,
-     "expected": 21,
-     "received": 21,
-     "ok": true
+     "expected": 51,
+     "received": 51,
+     "ok": true,
+     "page_count": 1151
     }
    ],
    "matchup": "ARI@LAR"
   },
   {
    "event_id": "401873006",
-   "count": 554,
-   "pages": 6,
-   "received": 554,
+   "count": 807,
+   "pages": 9,
+   "received": 807,
    "ok": true,
-   "kept_full_game_rows": 414,
+   "kept_full_game_rows": 539,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 807
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 807
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 807
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 807
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 807
     },
     {
      "page": 6,
-     "expected": 54,
-     "received": 54,
-     "ok": true
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 807
+    },
+    {
+     "page": 7,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 807
+    },
+    {
+     "page": 8,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 807
+    },
+    {
+     "page": 9,
+     "expected": 7,
+     "received": 7,
+     "ok": true,
+     "page_count": 807
     }
    ],
    "matchup": "LAC@KC"
@@ -749,203 +1046,240 @@
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 6,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 7,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 8,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 9,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 10,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 11,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     },
     {
      "page": 12,
      "expected": 36,
      "received": 36,
-     "ok": true
+     "ok": true,
+     "page_count": 1136
     }
    ],
    "matchup": "BUF@LV"
   },
   {
    "event_id": "401873007",
-   "count": 1191,
-   "pages": 12,
-   "received": 1191,
+   "count": 1210,
+   "pages": 13,
+   "received": 1210,
    "ok": true,
-   "kept_full_game_rows": 697,
+   "kept_full_game_rows": 709,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 6,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 7,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 8,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 9,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 10,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 11,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 1210
     },
     {
      "page": 12,
-     "expected": 91,
-     "received": 91,
-     "ok": true
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1210
+    },
+    {
+     "page": 13,
+     "expected": 10,
+     "received": 10,
+     "ok": true,
+     "page_count": 1210
     }
    ],
    "matchup": "DAL@GB"
   },
   {
    "event_id": "401873008",
-   "count": 520,
+   "count": 526,
    "pages": 6,
-   "received": 520,
+   "received": 526,
    "ok": true,
-   "kept_full_game_rows": 409,
+   "kept_full_game_rows": 410,
    "pages_detail": [
     {
      "page": 1,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 526
     },
     {
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 526
     },
     {
      "page": 3,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 526
     },
     {
      "page": 4,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 526
     },
     {
      "page": 5,
      "expected": 100,
      "received": 100,
-     "ok": true
+     "ok": true,
+     "page_count": 526
     },
     {
      "page": 6,
-     "expected": 20,
-     "received": 20,
-     "ok": true
+     "expected": 26,
+     "received": 26,
+     "ok": true,
+     "page_count": 526
     }
    ],
    "matchup": "WSH@SF"
@@ -953,7 +1287,8 @@
   {
    "event_id": "401873010",
    "ok": false,
-   "error": "GET failed after 4 tries: https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873010/competitions/401873010/odds/100/propBets?limit=100&page=1: HTTP Error 404: Not Found",
+   "no_board": true,
+   "note": "no DraftKings board posted for this event yet",
    "matchup": "NE@CHI"
   }
  ]
