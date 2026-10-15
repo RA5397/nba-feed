@@ -66,6 +66,63 @@ def num(x):
         return None
 
 
+# ESPN -> nflverse/engine team abbreviations. Only two of 32 differ; both silently broke a
+# slate build before being caught by diffing team sets. NBA codes agree throughout.
+ESPN2NFLVERSE = {"LAR": "LA", "WSH": "WAS"}
+
+
+def sha256_file(path):
+    import hashlib
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 16), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def file_checks(out, names):
+    """Per-file row count + sha256 for the manifest.
+
+    `boards_failed: []` already catches a game that failed outright, but nothing catches a
+    silently TRUNCATED csv -- which is the failure mode that once shipped a board on
+    three-week-old usage looking entirely normal. A consumer can compare rows/sha before
+    trusting a pull.
+    """
+    out_checks = {}
+    for n in names:
+        p = os.path.join(out, n)
+        if not os.path.exists(p):
+            out_checks[n] = dict(exists=False)
+            continue
+        with open(p, "r", newline="") as f:
+            rows = max(sum(1 for _ in f) - 1, 0)      # minus header
+        out_checks[n] = dict(exists=True, rows=rows, bytes=os.path.getsize(p),
+                             sha256=sha256_file(p))
+    return out_checks
+
+
+def append_line_history(path, pull_utc, snap, prop_rows):
+    """Append-only time series of every posted line, one row per (pull, prop).
+
+    This is the file that turns the feed from a snapshot into a dataset. With several
+    snapshots per game day it yields open -> intraday -> CLOSING line for every prop,
+    which is what Closing Line Value is computed from -- the only way to measure whether
+    the model beats the market without waiting for results to accumulate.
+    Small by design: no raw JSON, no duplicate metadata.
+    """
+    cols = ["pull_utc", "snap", "event_id", "athlete_id", "type_id", "type_name",
+            "line", "line_open", "american", "american_open", "side", "last_updated"]
+    new = not os.path.exists(path) or os.path.getsize(path) == 0
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "a", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+        if new:
+            w.writeheader()
+        for r in prop_rows:
+            w.writerow(dict(pull_utc=pull_utc, snap=snap, **r))
+    return len(prop_rows)
+
+
 # ---------- games + game lines ----------
 def parse_games(sb):
     rows = []
@@ -82,6 +139,29 @@ def parse_games(sb):
                    home_team_id=h["team"]["id"], away_team_id=a["team"]["id"],
                    provider=None, details=None, spread_home=None, total=None,
                    ml_home=None, ml_away=None)
+        # ---- venue / roof / weather. All of this is already inside the scoreboard JSON we
+        # download and save; it was simply being discarded. The engine takes a dome flag and
+        # wind/temp/precip and was running a hardcoded 6mph/65F/10% for every outdoor game,
+        # with the dome column set by hand per game. venue.indoor removes that step entirely.
+        ven = comp.get("venue") or {}
+        row["venue"] = ven.get("fullName")
+        row["venue_id"] = ven.get("id")
+        ind = ven.get("indoor")
+        row["dome"] = None if ind is None else int(bool(ind))
+        row["neutral_site"] = int(bool(comp.get("neutralSite")))
+        wx = ev.get("weather") or {}
+        row["wx_temp_f"] = num(wx.get("temperature"))
+        row["wx_condition"] = wx.get("displayValue")
+        row["wx_condition_id"] = wx.get("conditionId")
+        # ESPN exposes no wind or precipitation probability on the scoreboard. Left blank
+        # rather than defaulted so the engine can tell "unknown" from "calm".
+        row["wx_wind_mph"] = None
+        row["wx_precip_pct"] = None
+        # nflverse/engine team codes. ESPN and nflverse agree on 30 of 32; only these differ.
+        # Verified against the 2026 player file. Emitted as extra columns so nothing
+        # downstream that reads `home`/`away` changes behaviour.
+        row["home_nflverse"] = ESPN2NFLVERSE.get(row["home"], row["home"])
+        row["away_nflverse"] = ESPN2NFLVERSE.get(row["away"], row["away"])
         if odds:
             row["provider"] = odds.get("provider", {}).get("name")
             row["details"] = odds.get("details")
