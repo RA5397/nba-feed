@@ -1,0 +1,119 @@
+{
+ "sport": "nfl",
+ "kind": "results",
+ "schema": 1,
+ "pulled_utc": "2026-10-15T18:19:19+00:00",
+ "window": "2026-10-11..2026-10-15",
+ "finished_games": 14,
+ "rows": 7396,
+ "athletes": 925,
+ "games_failed": [],
+ "files": {
+  "results.csv": {
+   "exists": true,
+   "rows": 7396,
+   "bytes": 521550,
+   "sha256": "0960125c14f209fcede1c87445a811f97a8fcd0510b478b4c279bc98f1c746ec"
+  }
+ },
+ "checks": [
+  {
+   "event_id": "401872981",
+   "matchup": "PHI@JAX",
+   "rows": 483,
+   "athletes": 61,
+   "ok": true
+  },
+  {
+   "event_id": "401872990",
+   "matchup": "CHI@GB",
+   "rows": 552,
+   "athletes": 65,
+   "ok": true
+  },
+  {
+   "event_id": "401872984",
+   "matchup": "HOU@TEN",
+   "rows": 516,
+   "athletes": 66,
+   "ok": true
+  },
+  {
+   "event_id": "401872982",
+   "matchup": "CIN@MIA",
+   "rows": 544,
+   "athletes": 65,
+   "ok": true
+  },
+  {
+   "event_id": "401872986",
+   "matchup": "LV@NE",
+   "rows": 564,
+   "athletes": 70,
+   "ok": true
+  },
+  {
+   "event_id": "401872987",
+   "matchup": "MIN@NO",
+   "rows": 534,
+   "athletes": 66,
+   "ok": true
+  },
+  {
+   "event_id": "401872983",
+   "matchup": "CLE@NYJ",
+   "rows": 528,
+   "athletes": 65,
+   "ok": true
+  },
+  {
+   "event_id": "401872985",
+   "matchup": "IND@PIT",
+   "rows": 474,
+   "athletes": 63,
+   "ok": true
+  },
+  {
+   "event_id": "401872988",
+   "matchup": "NYG@WSH",
+   "rows": 521,
+   "athletes": 67,
+   "ok": true
+  },
+  {
+   "event_id": "401872989",
+   "matchup": "DEN@LAC",
+   "rows": 519,
+   "athletes": 64,
+   "ok": true
+  },
+  {
+   "event_id": "401872991",
+   "matchup": "DET@ARI",
+   "rows": 564,
+   "athletes": 73,
+   "ok": true
+  },
+  {
+   "event_id": "401872992",
+   "matchup": "SF@SEA",
+   "rows": 533,
+   "athletes": 63,
+   "ok": true
+  },
+  {
+   "event_id": "401872993",
+   "matchup": "BAL@ATL",
+   "rows": 545,
+   "athletes": 69,
+   "ok": true
+  },
+  {
+   "event_id": "401872994",
+   "matchup": "BUF@LAR",
+   "rows": 519,
+   "athletes": 68,
+   "ok": true
+  }
+ ]
+}

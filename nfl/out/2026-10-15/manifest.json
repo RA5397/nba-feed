@@ -1,23 +1,48 @@
 {
  "sport": "nfl",
+ "snap": "main",
+ "schema": 2,
  "window": "2026-10-15..2026-10-22",
- "pulled_utc": "2026-10-15T18:13:25+00:00",
+ "pulled_utc": "2026-10-15T18:18:40+00:00",
  "games": 15,
  "games_with_lines": 15,
- "prop_rows": 8573,
+ "games_with_dome": 15,
+ "prop_rows": 6796,
+ "priced_prop_rows": 0,
  "injuries": 800,
- "boards_ok": 14,
+ "line_history_appended": 6796,
+ "boards_ok": 12,
  "boards_failed": [
+  "SEA@DEN",
+  "CHI@ATL",
   "NE@CHI"
  ],
+ "files": {
+  "games.csv": {
+   "exists": true,
+   "rows": 15,
+   "bytes": 2670,
+   "sha256": "62466714ca3936723c776add9b4d2e7e545807215bb6ea3abcc24eaff8ede126"
+  },
+  "props.csv": {
+   "exists": true,
+   "rows": 6796,
+   "bytes": 583927,
+   "sha256": "9de4d496446029c68200cf355dceeeecbf9a2a837b1721ff591c3cf2f431f438"
+  },
+  "injuries.csv": {
+   "exists": true,
+   "rows": 800,
+   "bytes": 121599,
+   "sha256": "0745c708eb195c1e6f28b62148da0ad653c36f22b281490e74cb4e8c8da60cce"
+  }
+ },
  "checks": [
   {
    "event_id": "401872995",
    "count": 1799,
    "pages": 18,
-   "received": 1799,
-   "ok": true,
-   "kept_full_game_rows": 1102,
+   "ok": false,
    "pages_detail": [
     {
      "page": 1,
@@ -59,73 +84,7 @@
      "page": 7,
      "expected": 100,
      "received": 100,
-     "ok": true
-    },
-    {
-     "page": 8,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 9,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 10,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 11,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 12,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 13,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 14,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 15,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 16,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 17,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 18,
-     "expected": 99,
-     "received": 99,
-     "ok": true
+     "ok": false
     }
    ],
    "matchup": "SEA@DEN"
@@ -229,9 +188,7 @@
    "event_id": "401872999",
    "count": 1253,
    "pages": 13,
-   "received": 1253,
-   "ok": true,
-   "kept_full_game_rows": 675,
+   "ok": false,
    "pages_detail": [
     {
      "page": 1,
@@ -243,73 +200,7 @@
      "page": 2,
      "expected": 100,
      "received": 100,
-     "ok": true
-    },
-    {
-     "page": 3,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 4,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 5,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 6,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 7,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 8,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 9,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 10,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 11,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 12,
-     "expected": 100,
-     "received": 100,
-     "ok": true
-    },
-    {
-     "page": 13,
-     "expected": 53,
-     "received": 53,
-     "ok": true
+     "ok": false
     }
    ],
    "matchup": "CHI@ATL"
