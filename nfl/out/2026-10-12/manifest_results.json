@@ -1,0 +1,35 @@
+{
+ "sport": "nfl",
+ "kind": "results",
+ "schema": 1,
+ "pulled_utc": "2026-10-16T17:58:58+00:00",
+ "window": "2026-10-12..2026-10-16",
+ "finished_games": 2,
+ "rows": 1030,
+ "athletes": 132,
+ "games_failed": [],
+ "files": {
+  "results.csv": {
+   "exists": true,
+   "rows": 1030,
+   "bytes": 72571,
+   "sha256": "efe3c5f17dbe67630a0c53cf5dd54d8a9914d1ce4b1968d7facee1e88c59825b"
+  }
+ },
+ "checks": [
+  {
+   "event_id": "401872994",
+   "matchup": "BUF@LAR",
+   "rows": 519,
+   "athletes": 68,
+   "ok": true
+  },
+  {
+   "event_id": "401872995",
+   "matchup": "SEA@DEN",
+   "rows": 511,
+   "athletes": 64,
+   "ok": true
+  }
+ ]
+}
