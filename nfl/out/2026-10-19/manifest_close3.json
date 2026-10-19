@@ -1,0 +1,391 @@
+{
+ "sport": "nfl",
+ "snap": "close3",
+ "schema": 2,
+ "window": "2026-10-19..2026-10-26",
+ "pulled_utc": "2026-10-19T04:06:05+00:00",
+ "games": 15,
+ "games_with_lines": 15,
+ "games_with_dome": 15,
+ "prop_rows": 1274,
+ "priced_prop_rows": 0,
+ "injuries": 0,
+ "line_history_appended": 1274,
+ "boards_ok": 11,
+ "boards_no_board": [
+  "SF@ATL",
+  "CIN@BAL",
+  "GB@DET",
+  "DAL@PHI"
+ ],
+ "boards_count_drift": [],
+ "boards_failed": [],
+ "files": {
+  "games_close3.csv": {
+   "exists": true,
+   "rows": 15,
+   "bytes": 2676,
+   "sha256": "2d5338cab3cc0751224e178cc306e86e5af91a9d6f3475eb944580820675621e"
+  },
+  "props_close3.csv": {
+   "exists": true,
+   "rows": 1274,
+   "bytes": 110995,
+   "sha256": "8aa8c3f1376c1fb21c60194d202c2c6d534f416b36a972af9308054351a9417a"
+  }
+ },
+ "checks": [
+  {
+   "event_id": "401873008",
+   "count": 1287,
+   "pages": 13,
+   "received": 1287,
+   "ok": true,
+   "kept_full_game_rows": 710,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 2,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 3,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 4,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 5,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 6,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 7,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 8,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 9,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 10,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 11,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 12,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 1287
+    },
+    {
+     "page": 13,
+     "expected": 87,
+     "received": 87,
+     "ok": true,
+     "page_count": 1287
+    }
+   ],
+   "matchup": "WSH@SF"
+  },
+  {
+   "event_id": "401873010",
+   "count": 614,
+   "pages": 7,
+   "received": 614,
+   "ok": true,
+   "kept_full_game_rows": 564,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 614
+    },
+    {
+     "page": 2,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 614
+    },
+    {
+     "page": 3,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 614
+    },
+    {
+     "page": 4,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 614
+    },
+    {
+     "page": 5,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 614
+    },
+    {
+     "page": 6,
+     "expected": 100,
+     "received": 100,
+     "ok": true,
+     "page_count": 614
+    },
+    {
+     "page": 7,
+     "expected": 14,
+     "received": 14,
+     "ok": true,
+     "page_count": 614
+    }
+   ],
+   "matchup": "NE@CHI"
+  },
+  {
+   "event_id": "401873011",
+   "count": 12,
+   "pages": 1,
+   "received": 12,
+   "ok": true,
+   "kept_full_game_rows": 0,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 12,
+     "received": 12,
+     "ok": true,
+     "page_count": 12
+    }
+   ],
+   "matchup": "PIT@NO"
+  },
+  {
+   "event_id": "401873017",
+   "ok": false,
+   "no_board": true,
+   "note": "no DraftKings board posted for this event yet",
+   "matchup": "SF@ATL"
+  },
+  {
+   "event_id": "401873013",
+   "count": 12,
+   "pages": 1,
+   "received": 12,
+   "ok": true,
+   "kept_full_game_rows": 0,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 12,
+     "received": 12,
+     "ok": true,
+     "page_count": 12
+    }
+   ],
+   "matchup": "CLE@TEN"
+  },
+  {
+   "event_id": "401873014",
+   "count": 12,
+   "pages": 1,
+   "received": 12,
+   "ok": true,
+   "kept_full_game_rows": 0,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 12,
+     "received": 12,
+     "ok": true,
+     "page_count": 12
+    }
+   ],
+   "matchup": "IND@MIN"
+  },
+  {
+   "event_id": "401873015",
+   "count": 12,
+   "pages": 1,
+   "received": 12,
+   "ok": true,
+   "kept_full_game_rows": 0,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 12,
+     "received": 12,
+     "ok": true,
+     "page_count": 12
+    }
+   ],
+   "matchup": "MIA@NYJ"
+  },
+  {
+   "event_id": "401873018",
+   "count": 12,
+   "pages": 1,
+   "received": 12,
+   "ok": true,
+   "kept_full_game_rows": 0,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 12,
+     "received": 12,
+     "ok": true,
+     "page_count": 12
+    }
+   ],
+   "matchup": "TB@CAR"
+  },
+  {
+   "event_id": "401873012",
+   "ok": false,
+   "no_board": true,
+   "note": "no DraftKings board posted for this event yet",
+   "matchup": "CIN@BAL"
+  },
+  {
+   "event_id": "401873016",
+   "count": 11,
+   "pages": 1,
+   "received": 11,
+   "ok": true,
+   "kept_full_game_rows": 0,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 11,
+     "received": 11,
+     "ok": true,
+     "page_count": 11
+    }
+   ],
+   "matchup": "NYG@HOU"
+  },
+  {
+   "event_id": "401873019",
+   "count": 12,
+   "pages": 1,
+   "received": 12,
+   "ok": true,
+   "kept_full_game_rows": 0,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 12,
+     "received": 12,
+     "ok": true,
+     "page_count": 12
+    }
+   ],
+   "matchup": "DEN@ARI"
+  },
+  {
+   "event_id": "401873020",
+   "ok": false,
+   "no_board": true,
+   "note": "no DraftKings board posted for this event yet",
+   "matchup": "GB@DET"
+  },
+  {
+   "event_id": "401873021",
+   "count": 12,
+   "pages": 1,
+   "received": 12,
+   "ok": true,
+   "kept_full_game_rows": 0,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 12,
+     "received": 12,
+     "ok": true,
+     "page_count": 12
+    }
+   ],
+   "matchup": "LAR@LV"
+  },
+  {
+   "event_id": "401873022",
+   "count": 11,
+   "pages": 1,
+   "received": 11,
+   "ok": true,
+   "kept_full_game_rows": 0,
+   "pages_detail": [
+    {
+     "page": 1,
+     "expected": 11,
+     "received": 11,
+     "ok": true,
+     "page_count": 11
+    }
+   ],
+   "matchup": "KC@SEA"
+  },
+  {
+   "event_id": "401873009",
+   "ok": false,
+   "no_board": true,
+   "note": "no DraftKings board posted for this event yet",
+   "matchup": "DAL@PHI"
+  }
+ ]
+}
