@@ -1,6 +1,6 @@
 team,athlete_id,name,status,detail,date
+Atlanta Hawks,4712863,Mouhamed Gueye,Out,"Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",2026-10-19T19:38Z
 Atlanta Hawks,5105571,Henri Veesaar,Out,"Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday.",2026-09-21T19:50Z
-Atlanta Hawks,4712863,Mouhamed Gueye,Day-To-Day,"Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",2026-07-19T00:14Z
 Boston Celtics,4433188,Devin Carter,Out,"Carter has been diagnosed with mononucleosis and is without a timetable for a return, Gary Washburn of The Boston Globe reports.",2026-10-18T14:49Z
 Brooklyn Nets,5105626,Tyler Bilodeau,Out,"Bilodeau will miss the season opener against the Hornets on Wednesday due to a shoulder sprain, Sharif Phillips-Keaton of USA Today reports.",2026-10-19T17:33Z
 Charlotte Hornets,4395651,Coby White,Day-To-Day,"Head coach Charles Lee said Sunday that White (calf) is without a definitive timetable for a return, though he's been ramping up and taking more contact in practice, Nick Carboni of WCNC Charlotte reports.",2026-10-18T18:27Z
@@ -22,6 +22,7 @@ Dallas Mavericks,5105806,Jett Howard,Day-To-Day,Howard (illness) won't play in F
 Dallas Mavericks,4683688,Dereck Lively II,Day-To-Day,Lively (foot) has been ruled out for Friday's exhibition against the Hawks.,2026-10-16T22:21Z
 Denver Nuggets,4592427,Spencer Jones,Day-To-Day,"Jones (hamstring) participated in Sunday's practice, Adam Mares of TheDNVR.com reports.",2026-10-18T18:47Z
 Denver Nuggets,4432181,Julian Strawther,Out,"Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports.",2026-10-17T00:52Z
+Detroit Pistons,2990962,Taurean Prince,Day-To-Day,Prince is questionable for Tuesday's season opener against the Celtics for personal reasons.,2026-10-19T22:13Z
 Golden State Warriors,3975,Stephen Curry,Day-To-Day,"Curry (ankle) is expected to play in Wednesday's season opener against the Lakers, per Kenzo Fukuda of ClutchPoints.com.",2026-10-19T19:10Z
 Golden State Warriors,3102531,Kristaps Porzingis,Out,"Porzingis (undisclosed) won't travel with the Warriors and remains out indefinitely, Luca Evans of the San Francisco Chronicle reports.",2026-10-19T19:09Z
 Golden State Warriors,4397886,Charles Bassey,Day-To-Day,"Bassey (knee) didn't practice Monday, per Nick Friedell of The Athletic.",2026-10-19T19:08Z
@@ -37,27 +38,23 @@ LA Clippers,4065778,Max Strus,Out,"Strus has been diagnosed with a partially tor
 LA Clippers,5108024,Yanic Konan Niederhauser,Out,"Niederhauser (foot) won't be ready for the start of the season, Law Murray of The Athletic reports.",2026-09-28T18:07Z
 LA Clippers,3913176,Brandon Ingram,Out,"Ingram won't be ready for the start of the season due to a partially torn Achilles, per Joey Linn of SI.com.",2026-09-28T18:01Z
 LA Clippers,4396818,Jordan Miller,Out,"Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic.",2026-08-26T20:04Z
+Los Angeles Lakers,4683774,Bronny James,Day-To-Day,"James (illness) was excused from practice Monday, per Jovan Buha of The Athletic.",2026-10-19T19:51Z
+Los Angeles Lakers,5113969,Cameron Carr,Day-To-Day,"Carr (undisclosed) didn't practice Monday, per Thuc Nhi Nguyen of the Los Angeles Times.",2026-10-19T19:49Z
+Los Angeles Lakers,5060631,Adou Thiero,Day-To-Day,"Thiero (undisclosed) didn't practice Monday, per Thuc Nhi Nguyen of the Los Angeles Times.",2026-10-19T19:48Z
+Los Angeles Lakers,4277811,Collin Sexton,Day-To-Day,"Sexton (lower leg) fully practiced Monday, per Dan Woike of The Athletic.",2026-10-19T19:46Z
 Los Angeles Lakers,4278077,Jarred Vanderbilt,Day-To-Day,"Vanderbilt (undisclosed) isn't expected to play in Friday's preseason game against the Nuggets, Thuc Nhi Nguyen of the Los Angeles Times reports.",2026-10-17T02:52Z
-Los Angeles Lakers,5113969,Cameron Carr,Day-To-Day,"Carr (undisclosed) has been ruled out for Friday's preseason game against Denver, Benjamin Royer of The Orange County Register reports.",2026-10-17T00:59Z
-Los Angeles Lakers,4277811,Collin Sexton,Day-To-Day,"Sexton (lower leg) has been ruled out for Friday's preseason game against the Nuggets, Law Murray of The Athletic reports.",2026-10-17T00:57Z
-Los Angeles Lakers,5060631,Adou Thiero,Day-To-Day,"Thiero (undisclosed) is out for Friday's preseason finale versus the Nuggets, Benjamin Royer of The Orange County Register reports.",2026-10-17T00:56Z
 Memphis Grizzlies,2991070,Jerami Grant,Day-To-Day,"Grant (rest) won't play in Friday's preseason game against the Hornets, Chris Herrington of The Daily Memphian reports.",2026-10-16T23:06Z
 Memphis Grizzlies,5105550,GG Jackson,Day-To-Day,"Jackson has been ruled out for Friday's exhibition against the Hornets due to an ankle injury, Chris Herrington of The Daily Memphian reports.",2026-10-16T23:02Z
-Memphis Grizzlies,4432185,Micah Peavy,Day-To-Day,"Head coach Tumos Iisalo said Thursday that Peavy (ankle) has progressed well in his recovery, though he won't play in Friday's preseason finale against Charlotte, Anthony Sain of Buff City Media reports.",2026-10-15T19:05Z
 Memphis Grizzlies,4432810,Isaiah Stewart,Out,The Grizzlies announced Friday that Stewart (ankle) will miss at least two weeks.,2026-10-09T23:01Z
-Miami Heat,4066993,Dru Smith,Day-To-Day,"Smith (calf) participated in Sunday's practice, Anthony Chiang of the Miami Herald reports.",2026-10-18T17:02Z
-Miami Heat,4601025,Pelle Larsson,Day-To-Day,"Larsson (illness) participated in Sunday's practice, Anthony Chiang of the Miami Herald reports.",2026-10-18T16:59Z
-Miami Heat,4066261,Bam Adebayo,Day-To-Day,"Adebayo (groin) participated in Sunday's practice, Ira Winderman of the South Florida Sun Sentinel reports.",2026-10-18T16:55Z
+Miami Heat,4066993,Dru Smith,Day-To-Day,"Smith (calf) participated in practice Monday, Anthony Chiang of the Miami Herald reports.",2026-10-19T23:17Z
+Miami Heat,4066261,Bam Adebayo,Day-To-Day,"Adebayo (groin) participated in Monday's practice, Anthony Chiang of the Miami Herald reports.",2026-10-19T23:15Z
+Miami Heat,4601025,Pelle Larsson,Day-To-Day,"Larsson (illness) participated in Monday's practice, Anthony Chiang of the Miami Herald reports.",2026-10-19T23:15Z
 Milwaukee Bucks,4277922,Jericho Sims,Day-To-Day,Sims (undisclosed) didn't play in Friday's 128-127 preseason win over the Pacers in overtime.,2026-10-17T02:09Z
 Milwaukee Bucks,5164559,Nate Ament,Day-To-Day,Ament (ankle) didn't play in Friday's 128-127 preseason win over the Pacers in overtime.,2026-10-17T02:01Z
 Minnesota Timberwolves,5157587,Rocco Zikarsky,Day-To-Day,Zikarsky (undisclosed) is out for Friday's preseason finale in Chicago.,2026-10-16T23:54Z
 Minnesota Timberwolves,3934673,Donte DiVincenzo,Out,"DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports.",2026-10-05T20:53Z
-New York Knicks,3062679,Josh Hart,Day-To-Day,"Coach Mike Brown isn't concerned about Hart missing Tuesday's regular-season opener Tuesday against Philadelphia, Kristian Winfield of the New York Daily News reports.",2026-10-16T03:42Z
-Oklahoma City Thunder,4683692,Cason Wallace,Day-To-Day,"Wallace (undisclosed) has agreed to a five-year, $139 million contract extension with the Thunder on Sunday, Shams Charania of ESPN reports.",2026-10-19T02:51Z
-Oklahoma City Thunder,5061603,Thomas Sorber,Day-To-Day,"Sorber (knee) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports.",2026-10-16T00:24Z
-Oklahoma City Thunder,4432823,Jaylin Williams,Day-To-Day,"Williams (heel) won't play in Thursday's preseason game against Houston, Justin Martinez of The Oklahoman reports.",2026-10-16T00:21Z
-Oklahoma City Thunder,5159925,Nikola Topic,Day-To-Day,"Topic (back) is out for Thursday's preseason game against Houston, Justin Martinez of The Oklahoman reports.",2026-10-16T00:17Z
-Oklahoma City Thunder,4433255,Chet Holmgren,Day-To-Day,"Holmgren (quadriceps) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports.",2026-10-16T00:16Z
+Oklahoma City Thunder,5061603,Thomas Sorber,Out,"Sorber (knee) won't play in Tuesday's season opener against the Spurs, Justin Martinez of The Oklahoman reports.",2026-10-19T22:11Z
+Oklahoma City Thunder,5159925,Nikola Topic,Out,"Topic (back) won't play in Tuesday's season opener against the Spurs, Justin Martinez of The Oklahoman reports.",2026-10-19T22:09Z
 Oklahoma City Thunder,5106270,Otega Oweh,Out,"Oweh (Achilles) underwent surgery Wednesday and will miss the entirety of the 2026-27 season, Brandon Rahbar of DailyThunder.com reports.",2026-10-15T01:22Z
 Orlando Magic,4712849,Anthony Black,Day-To-Day,"Black (ankle) participated in Sunday's practice, and head coach Sean Sweeney said he will continue ramping up, Jason Beede of the Orlando Sentinel reports.",2026-10-18T17:19Z
 Orlando Magic,4566434,Franz Wagner,Day-To-Day,"Head coach Sean Sweeney said the team will continue to evaluate Wagner's right shoulder, and he was limited to ""light work"" in Sunday's practice, Jason Beede of the Orlando Sentinel reports.",2026-10-18T15:55Z
@@ -65,13 +62,13 @@ Orlando Magic,5239561,Jase Richardson,Day-To-Day,"Richardson (back) is considere
 Orlando Magic,5214637,Noah Penda,Out,"Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel reports.",2026-10-17T22:19Z
 Orlando Magic,4065654,Jonathan Isaac,Day-To-Day,Isaac (knee) is out for Friday's preseason game against Miami.,2026-10-16T21:41Z
 Orlando Magic,5107251,Izaiyah Nelson,Out,"Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com.",2026-09-28T21:33Z
-Philadelphia 76ers,4870562,Dominick Barlow,Day-To-Day,"Barlow (back) did not participate in Monday's practice, according to 76ers reporter Paul Hudrick.",2026-10-19T16:52Z
-Philadelphia 76ers,3912848,Dean Wade,Day-To-Day,"Wade (ankle) did not practice Monday, according to 76ers reporter Paul Hudrick.",2026-10-19T16:47Z
-Philadelphia 76ers,5105637,Adem Bona,Day-To-Day,"Bona (foot) was a full participant in Sunday's practice, Ky Carlin of USA Today reports.",2026-10-18T17:59Z
-Philadelphia 76ers,4351851,Anfernee Simons,Day-To-Day,"Simons (hamstring) was a full participant in Sunday's practice, Ky Carlin of USA Today reports.",2026-10-18T17:57Z
-Philadelphia 76ers,3904625,Tacko Fall,Day-To-Day,"Fall (hip) didn't participate in Sunday's practice, Ky Carlin of USA Today reports.",2026-10-18T17:53Z
+Philadelphia 76ers,3912848,Dean Wade,Day-To-Day,"Wade (ankle) is questionable for Tuesday's season opener versus the Knicks, per Adam Aaronson of PhillyVoice.com.",2026-10-19T21:14Z
+Philadelphia 76ers,5105637,Adem Bona,Day-To-Day,"Bona (foot) is questionable for Tuesday's meeting in New York, Adam Aaronson of PhillyVoice.com reports.",2026-10-19T21:13Z
+Philadelphia 76ers,4351851,Anfernee Simons,Day-To-Day,"Simons (hamstring) is questionable for Tuesday's game against the Knicks, Adam Aaronson of PhillyVoice.com reports.",2026-10-19T21:11Z
+Philadelphia 76ers,3904625,Tacko Fall,Out,"Fall (hip) is out for Tuesday's regular-season opener against the Knicks, Adam Aaronson of PhillyVoice.com reports.",2026-10-19T21:10Z
+Philadelphia 76ers,4870562,Dominick Barlow,Out,"Barlow will miss at least the next two weeks of action due to a lumbar spine bone stress response, Adam Aaronson of PhillyVoice.com reports.",2026-10-19T21:07Z
 Philadelphia 76ers,4871141,Ariel Hukporti,Out,"Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",2026-10-06T19:17Z
-Phoenix Suns,3913174,Luke Kennard,Day-To-Day,"Kennard (knee) has been ruled out for the Suns' final game of the preseason Friday against Utah, John Gambadoro of Arizona Sports 98.7 FM reports.",2026-10-19T19:10Z
+Phoenix Suns,3913174,Luke Kennard,Day-To-Day,"Kennard (knee) increased his activity in practice Monday, Duane Rankin of the Arizona Republic reports.",2026-10-19T22:34Z
 Phoenix Suns,4601023,Oso Ighodaro,Day-To-Day,"Ighodaro (hip) signed a three-year, $29 million deal with the Suns on Sunday, Shams Charania of ESPN reports.",2026-10-18T23:33Z
 Phoenix Suns,4701232,Mark Williams,Out,"Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports.",2026-09-11T16:03Z
 Portland Trail Blazers,4706557,Chris Youngblood,Day-To-Day,Youngblood (calf) won't play in Friday's preseason game versus the Warriors.,2026-10-17T00:42Z
