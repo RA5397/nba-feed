@@ -1,4 +1,4 @@
 event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
-401909088,2026-10-20T19:00Z,STATUS_SCHEDULED,DET,BOS,8,2,DraftKings,BOS -1.5,1.5,220.5,+100,-120,Little Caesars Arena,5404,1,0,,,,,,DET,BOS,109.5,111.0
-401909089,2026-10-20T23:00Z,STATUS_SCHEDULED,NY,PHI,18,20,DraftKings,NY -4.5,-4.5,231.5,-180,+150,Madison Square Garden,1830,1,0,,,,,,NY,PHI,118.0,113.5
-401909090,2026-10-21T01:30Z,STATUS_SCHEDULED,SA,OKC,24,25,DraftKings,SA -1.5,-1.5,230.5,-112,-108,Frost Bank Center,780,1,0,,,,,,SA,OKC,116.0,114.5
+401909088,2026-10-20T19:00Z,STATUS_FINAL,DET,BOS,8,2,,,,,,,Little Caesars Arena,5404,1,0,,,,,,DET,BOS,,
+401909089,2026-10-20T23:00Z,STATUS_IN_PROGRESS,NY,PHI,18,20,,,,,,,Madison Square Garden,1830,1,0,,,,,,NY,PHI,,
+401909090,2026-10-21T01:30Z,STATUS_SCHEDULED,SA,OKC,24,25,Draft Kings,OKC -1.5,1.5,229.5,-102,-118,Frost Bank Center,780,1,0,,,,,,SA,OKC,114.0,115.5
