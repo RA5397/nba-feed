@@ -1,3 +1,3 @@
 event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
-401909093,2026-10-22T23:00Z,STATUS_SCHEDULED,PHI,CLE,20,5,DraftKings,PHI -2.5,-2.5,236.5,-142,+120,Xfinity Mobile Arena,1845,1,0,,,,,,PHI,CLE,119.5,117.0
-401909094,2026-10-23T01:30Z,STATUS_SCHEDULED,OKC,DEN,25,7,DraftKings,OKC -8.5,-8.5,236.5,-340,+270,Paycom Center,2559,1,0,,,,,,OKC,DEN,122.5,114.0
+401909093,2026-10-22T23:00Z,STATUS_IN_PROGRESS,PHI,CLE,20,5,,,,,,,Xfinity Mobile Arena,1845,1,0,,,,,,PHI,CLE,,
+401909094,2026-10-23T01:30Z,STATUS_SCHEDULED,OKC,DEN,25,7,DraftKings,OKC -7.5,-7.5,236.5,-340,+270,Paycom Center,2559,1,0,,,,,,OKC,DEN,122.0,114.5
