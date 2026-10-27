@@ -1,0 +1,5 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909877,2026-10-27T23:30Z,STATUS_SCHEDULED,BOS,BKN,2,17,Draft Kings,BOS -12.5,-12.5,222.5,-625,+455,TD Garden,1824,1,0,,,,,,BOS,BKN,117.5,105.0
+401909878,2026-10-28T00:00Z,STATUS_SCHEDULED,NY,DET,18,8,Draft Kings,NY -4.5,-4.5,219.5,-170,+142,Madison Square Garden,1830,1,0,,,,,,NY,DET,112.0,107.5
+401909879,2026-10-28T00:00Z,STATUS_SCHEDULED,SA,SAC,24,23,Draft Kings,SA -18.5,-18.5,232.5,-1800,+1000,Frost Bank Center,780,1,0,,,,,,SA,SAC,125.5,107.0
+401909880,2026-10-28T03:00Z,STATUS_SCHEDULED,LAL,POR,13,22,Draft Kings,LAL -1.5,-1.5,233.5,-125,+105,crypto.com Arena,1841,1,0,,,,,,LAL,POR,117.5,116.0
