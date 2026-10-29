@@ -1,0 +1,4 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909893,2026-10-30T00:00Z,STATUS_SCHEDULED,ATL,CLE,1,5,DraftKings,ATL -1.5,-1.5,237.5,-115,-105,State Farm Arena,1827,1,0,,,,,,ATL,CLE,119.5,118.0
+401909894,2026-10-30T00:00Z,STATUS_SCHEDULED,NO,SAC,3,23,DraftKings,NO -6.5,-6.5,235.5,-238,+195,Smoothie King Center,985,1,0,,,,,,NO,SAC,121.0,114.5
+401909895,2026-10-30T02:00Z,STATUS_SCHEDULED,POR,MEM,22,29,DraftKings,POR -7.5,-7.5,232.5,-278,+225,Moda Center,3423,1,0,,,,,,POR,MEM,120.0,112.5
