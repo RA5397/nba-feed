@@ -1,0 +1,11 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909277,2026-10-30T23:00Z,STATUS_SCHEDULED,WSH,CHA,27,30,Draft Kings,CHA -1.5,1.5,218.5,-105,-115,Capital One Arena,1823,1,0,,,,,,WAS,CHA,108.5,110.0
+401909278,2026-10-30T23:30Z,STATUS_SCHEDULED,BOS,CHI,2,4,Draft Kings,BOS -15.5,-15.5,235.5,-950,+625,TD Garden,1824,1,0,,,,,,BOS,CHI,125.5,110.0
+401909279,2026-10-30T23:30Z,STATUS_SCHEDULED,BKN,DET,17,8,Draft Kings,DET -7.5,7.5,222.5,+260,-325,Barclays Center,3559,1,0,,,,,,BKN,DET,107.5,115.0
+401909280,2026-10-30T23:30Z,STATUS_SCHEDULED,PHI,NY,20,18,Draft Kings,NY -1.5,1.5,226.5,+105,-125,Xfinity Mobile Arena,1845,1,0,,,,,,PHI,NY,112.5,114.0
+401909281,2026-10-30T23:30Z,STATUS_SCHEDULED,TOR,ORL,28,19,Draft Kings,TOR -5.5,-5.5,227.5,-218,+180,Scotiabank Arena,1838,1,0,,,,,,TOR,ORL,116.5,111.0
+401909282,2026-10-31T00:00Z,STATUS_SCHEDULED,MIA,IND,14,11,Draft Kings,MIA -8.5,-8.5,237.5,-325,+260,Kaseya Center,3438,1,0,,,,,,MIA,IND,123.0,114.5
+401909283,2026-10-31T00:00Z,STATUS_SCHEDULED,DAL,HOU,6,10,Draft Kings,HOU -6.5,6.5,223.5,+195,-238,American Airlines Center,516,1,0,,,,,,DAL,HOU,108.5,115.0
+401909284,2026-10-31T00:00Z,STATUS_SCHEDULED,MIN,LAC,16,12,Draft Kings,MIN -6.5,-6.5,223.5,-278,+225,Target Center,2029,1,0,,,,,,MIN,LAC,115.0,108.5
+401909285,2026-10-31T02:00Z,STATUS_SCHEDULED,GS,LAL,9,13,Draft Kings,LAL -3.5,3.5,234.5,+124,-148,Chase Center,6270,1,0,,,,,,GS,LAL,115.5,119.0
+401909286,2026-10-31T02:00Z,STATUS_SCHEDULED,PHX,DEN,21,7,Draft Kings,DEN -3.5,3.5,231.5,+150,-180,Mortgage Matchup Center,1949,1,0,,,,,,PHX,DEN,114.0,117.5
