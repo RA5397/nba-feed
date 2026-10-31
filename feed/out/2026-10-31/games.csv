@@ -1,0 +1,8 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909896,2026-10-31T19:00Z,STATUS_SCHEDULED,UTAH,POR,26,22,DraftKings,POR -7.5,7.5,231.5,+250,-310,Delta Center,3093,1,0,,,,,,UTAH,POR,112.0,119.5
+401909897,2026-10-31T22:00Z,STATUS_SCHEDULED,CHA,PHI,30,20,DraftKings,CHA -1.5,-1.5,213.5,-112,-108,Spectrum Center,1893,1,0,,,,,,CHA,PHI,107.5,106.0
+401909898,2026-10-31T23:00Z,STATUS_SCHEDULED,NO,ATL,3,1,DraftKings,ATL -4.5,4.5,240.5,+150,-180,Smoothie King Center,985,1,0,,,,,,NO,ATL,118.0,122.5
+401909899,2026-11-01T00:00Z,STATUS_SCHEDULED,MEM,SAC,29,23,DraftKings,MEM -8.5,-8.5,230.5,-375,+295,FedExForum,1392,1,0,,,,,,MEM,SAC,119.5,111.0
+401909900,2026-11-01T00:00Z,STATUS_SCHEDULED,MIL,CLE,15,5,DraftKings,CLE -9.5,9.5,235.5,+310,-395,Fiserv Forum,5777,1,0,,,,,,MIL,CLE,113.0,122.5
+401909901,2026-11-01T00:00Z,STATUS_SCHEDULED,SA,MIN,24,16,DraftKings,SA -12.5,-12.5,225.5,-575,+425,Frost Bank Center,780,1,0,,,,,,SA,MIN,119.0,106.5
+401909902,2026-11-01T00:30Z,STATUS_SCHEDULED,HOU,OKC,10,25,DraftKings,HOU -2.5,-2.5,219.5,-142,+120,Toyota Center (Houston),1394,1,0,,,,,,HOU,OKC,111.0,108.5
