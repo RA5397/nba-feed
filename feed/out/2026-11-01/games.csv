@@ -1,0 +1,5 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909903,2026-11-01T20:30Z,STATUS_SCHEDULED,ORL,BOS,19,2,Draft Kings,BOS -7.5,7.5,221.5,+225,-278,Kia Center,3432,1,0,,,,,,ORL,BOS,107.0,114.5
+401909904,2026-11-01T22:00Z,STATUS_SCHEDULED,IND,BKN,11,17,Draft Kings,IND -3.5,-3.5,230.5,-170,+142,Gainbridge Fieldhouse,2183,1,0,,,,,,IND,BKN,117.0,113.5
+401909905,2026-11-02T01:30Z,STATUS_SCHEDULED,GS,LAC,9,12,Draft Kings,GS -2.5,-2.5,221.5,-130,+110,Chase Center,6270,1,0,,,,,,GS,LAC,112.0,109.5
+401909906,2026-11-02T02:00Z,STATUS_SCHEDULED,LAL,TOR,13,28,Draft Kings,LAL -2.5,-2.5,224.5,-148,+124,crypto.com Arena,1841,1,0,,,,,,LAL,TOR,113.5,111.0
