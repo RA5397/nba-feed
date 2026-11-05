@@ -1,0 +1,3 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909936,2026-11-06T02:00Z,STATUS_SCHEDULED,PHX,ORL,21,19,Draft Kings,PHX -1.5,-1.5,222.5,-114,-104,Mortgage Matchup Center,1949,1,0,,,,,,PHX,ORL,112.0,110.5
+401909937,2026-11-06T03:00Z,STATUS_SCHEDULED,GS,MIA,9,14,,,,,,,Chase Center,6270,1,0,,,,,,GS,MIA,,
