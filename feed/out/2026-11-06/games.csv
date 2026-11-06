@@ -1,0 +1,10 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909287,2026-11-07T00:00Z,STATUS_SCHEDULED,ATL,WSH,1,27,DraftKings,ATL -7.5,-7.5,228.5,-299,+243,State Farm Arena,1827,1,0,,,,,,ATL,WAS,118.0,110.5
+401909288,2026-11-07T00:00Z,STATUS_SCHEDULED,CHA,BOS,30,2,DraftKings,BOS -9.5,9.5,208.5,+300,-378,Spectrum Center,1893,1,0,,,,,,CHA,BOS,99.5,109.0
+401909289,2026-11-07T00:30Z,STATUS_SCHEDULED,CLE,PHI,5,20,DraftKings,PHI -2.5,2.5,231.5,+125,-148,Rocket Arena,3417,1,0,,,,,,CLE,PHI,114.5,117.0
+401909290,2026-11-07T01:00Z,STATUS_SCHEDULED,DAL,UTAH,6,26,DraftKings,DAL -6.5,-6.5,225.5,-264,+217,American Airlines Center,516,1,0,,,,,,DAL,UTAH,116.0,109.5
+401909291,2026-11-07T01:00Z,STATUS_SCHEDULED,MEM,OKC,29,25,DraftKings,OKC -4.5,4.5,223.5,+145,-173,FedExForum,1392,1,0,,,,,,MEM,OKC,109.5,114.0
+401909292,2026-11-07T01:00Z,STATUS_SCHEDULED,MIL,TOR,15,28,DraftKings,TOR -4.5,4.5,229.5,+154,-184,Fiserv Forum,5777,1,0,,,,,,MIL,TOR,112.5,117.0
+401909293,2026-11-07T01:00Z,STATUS_SCHEDULED,NO,MIN,3,16,DraftKings,MIN -3.5,3.5,230.5,+140,-166,Smoothie King Center,985,1,0,,,,,,NO,MIN,113.5,117.0
+401909294,2026-11-07T03:00Z,STATUS_SCHEDULED,LAL,POR,13,22,DraftKings,LAL -3.5,-3.5,231.5,-154,+130,crypto.com Arena,1841,1,0,,,,,,LAL,POR,117.5,114.0
+401909295,2026-11-07T03:00Z,STATUS_SCHEDULED,SAC,SA,23,24,DraftKings,SA -17.5,17.5,231.5,+810,-1340,Golden 1 Center,5310,1,0,,,,,,SAC,SA,107.0,124.5
