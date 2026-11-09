@@ -1,0 +1,9 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909952,2026-11-10T00:00Z,STATUS_SCHEDULED,ATL,LAL,1,13,DraftKings,ATL -2.5,-2.5,233.5,-144,+121,State Farm Arena,1827,1,0,,,,,,ATL,LAL,118.0,115.5
+401909953,2026-11-10T00:00Z,STATUS_SCHEDULED,CHA,CLE,30,5,DraftKings,CLE -9.5,9.5,215.5,+282,-353,Spectrum Center,1893,1,0,,,,,,CHA,CLE,103.0,112.5
+401909954,2026-11-10T00:00Z,STATUS_SCHEDULED,DET,WSH,8,27,DraftKings,DET -9.5,-9.5,218.5,-411,+323,Little Caesars Arena,5404,1,0,,,,,,DET,WAS,114.0,104.5
+401909955,2026-11-10T00:30Z,STATUS_SCHEDULED,TOR,MEM,28,29,DraftKings,MEM -2.5,2.5,225.5,+114,-135,Scotiabank Arena,1838,1,0,,,,,,TOR,MEM,111.5,114.0
+401909956,2026-11-10T01:00Z,STATUS_SCHEDULED,DAL,IND,6,11,DraftKings,DAL -4.5,-4.5,226.5,-170,+143,American Airlines Center,516,1,0,,,,,,DAL,IND,115.5,111.0
+401909957,2026-11-10T01:30Z,STATUS_SCHEDULED,HOU,DEN,10,7,DraftKings,HOU -4.5,-4.5,223.5,-173,+146,Toyota Center (Houston),1394,1,0,,,,,,HOU,DEN,114.0,109.5
+401909958,2026-11-10T02:00Z,STATUS_SCHEDULED,PHX,SA,21,24,DraftKings,SA -8.5,8.5,226.5,+296,-372,Mortgage Matchup Center,1949,1,0,,,,,,PHX,SA,109.0,117.5
+401909959,2026-11-10T03:00Z,STATUS_SCHEDULED,GS,NO,9,3,DraftKings,GS -11.5,-11.5,229.5,-569,+426,Chase Center,6270,1,0,,,,,,GS,NO,120.5,109.0
