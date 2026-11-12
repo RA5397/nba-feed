@@ -1,0 +1,5 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909976,2026-11-13T00:00Z,STATUS_SCHEDULED,PHI,TOR,20,28,DraftKings,PHI -7.5,-7.5,224.5,-269,+221,Xfinity Mobile Arena,1845,1,0,,,,,,PHI,TOR,116.0,108.5
+401909977,2026-11-13T00:00Z,STATUS_SCHEDULED,WSH,DET,27,8,DraftKings,DET -9.5,9.5,221.5,+341,-438,Capital One Arena,1823,1,0,,,,,,WAS,DET,106.0,115.5
+401909978,2026-11-13T01:00Z,STATUS_SCHEDULED,MIN,DAL,16,6,DraftKings,MIN -5.5,-5.5,225.5,-223,+185,Target Center,2029,1,0,,,,,,MIN,DAL,115.5,110.0
+401909979,2026-11-13T02:00Z,STATUS_SCHEDULED,PHX,CHA,21,30,DraftKings,PHX -6.5,-6.5,214.5,-229,+190,Mortgage Matchup Center,1949,1,0,,,,,,PHX,CHA,110.5,104.0
