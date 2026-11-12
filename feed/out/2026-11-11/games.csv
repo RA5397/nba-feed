@@ -1,0 +1,11 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909966,2026-11-12T00:00Z,STATUS_FINAL,IND,WSH,11,27,,,,,,,Gainbridge Fieldhouse,2183,1,0,,,,,,IND,WAS,,
+401909967,2026-11-12T00:00Z,STATUS_IN_PROGRESS,NY,CLE,18,5,,,,,,,Madison Square Garden,1830,1,0,,,,,,NY,CLE,,
+401909968,2026-11-12T00:00Z,STATUS_IN_PROGRESS,TOR,BOS,28,2,,,,,,,Scotiabank Arena,1838,1,0,,,,,,TOR,BOS,,
+401909969,2026-11-12T01:00Z,STATUS_IN_PROGRESS,CHI,SA,4,24,,,,,,,United Center,1847,1,0,,,,,,CHI,SA,,
+401909970,2026-11-12T01:00Z,STATUS_IN_PROGRESS,MEM,DEN,29,7,,,,,,,FedExForum,1392,1,0,,,,,,MEM,DEN,,
+401909971,2026-11-12T01:00Z,STATUS_IN_PROGRESS,MIL,LAL,15,13,,,,,,,Fiserv Forum,5777,1,0,,,,,,MIL,LAL,,
+401909972,2026-11-12T01:00Z,STATUS_HALFTIME,NO,BKN,3,17,,,,,,,Smoothie King Center,985,1,0,,,,,,NO,BKN,,
+401909973,2026-11-12T02:00Z,STATUS_IN_PROGRESS,UTAH,ORL,26,19,,,,,,,Delta Center,3093,1,0,,,,,,UTAH,ORL,,
+401909974,2026-11-12T02:30Z,STATUS_SCHEDULED,HOU,GS,10,9,Draft Kings,HOU -6.5,-6.5,219.5,-249,+205,Toyota Center (Houston),1394,1,0,,,,,,HOU,GS,113.0,106.5
+401909975,2026-11-12T03:00Z,STATUS_SCHEDULED,POR,OKC,22,25,Draft Kings,POR -2.5,-2.5,224.5,-147,+124,Moda Center,3423,1,0,,,,,,POR,OKC,113.5,111.0
