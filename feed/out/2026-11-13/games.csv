@@ -1,0 +1,10 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909296,2026-11-14T00:00Z,STATUS_SCHEDULED,IND,NY,11,18,DraftKings,NY -8.5,8.5,219.5,+271,-337,Gainbridge Fieldhouse,2183,1,0,,,,,,IND,NY,105.5,114.0
+401909297,2026-11-14T00:00Z,STATUS_SCHEDULED,ORL,MIL,19,15,DraftKings,ORL -9.5,-9.5,224.5,-395,+312,Kia Center,3432,1,0,,,,,,ORL,MIL,117.0,107.5
+401909298,2026-11-14T01:00Z,STATUS_SCHEDULED,MIA,CLE,14,5,DraftKings,MIA -2.5,-2.5,236.5,-135,+114,Kaseya Center,3438,1,0,,,,,,MIA,CLE,119.5,117.0
+401909299,2026-11-14T01:00Z,STATUS_SCHEDULED,CHI,ATL,4,1,DraftKings,ATL -6.5,6.5,245.5,+227,-277,United Center,1847,1,0,,,,,,CHI,ATL,119.5,126.0
+401909300,2026-11-14T01:00Z,STATUS_SCHEDULED,NO,MEM,3,29,DraftKings,MEM -3.5,3.5,235.5,+136,-162,Smoothie King Center,985,1,0,,,,,,NO,MEM,116.0,119.5
+401909301,2026-11-14T01:30Z,STATUS_SCHEDULED,HOU,UTAH,10,26,DraftKings,HOU -15.5,-15.5,221.5,-1180,+740,Toyota Center (Houston),1394,1,0,,,,,,HOU,UTAH,118.5,103.0
+401909302,2026-11-14T02:30Z,STATUS_SCHEDULED,SA,GS,24,9,DraftKings,SA -12.5,-12.5,218.5,-670,+487,Frost Bank Center,780,1,0,,,,,,SA,GS,115.5,103.0
+401909303,2026-11-14T03:00Z,STATUS_SCHEDULED,SAC,POR,23,22,DraftKings,POR -10.5,10.5,229.5,+361,-468,Golden 1 Center,5310,1,0,,,,,,SAC,POR,109.5,120.0
+401909304,2026-11-14T03:30Z,STATUS_SCHEDULED,LAC,OKC,12,25,DraftKings,OKC -7.5,7.5,222.5,+231,-283,Intuit Dome,10642,1,0,,,,,,LAC,OKC,107.5,115.0
