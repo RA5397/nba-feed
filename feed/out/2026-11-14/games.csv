@@ -1,0 +1,6 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909980,2026-11-15T00:00Z,STATUS_SCHEDULED,NO,DEN,3,7,DraftKings,DEN -12.5,12.5,235.5,+483,-670,Smoothie King Center,985,1,0,,,,,,NO,DEN,111.5,124.0
+401909981,2026-11-15T00:30Z,STATUS_SCHEDULED,CLE,DAL,5,6,DraftKings,DAL -4.5,4.5,228.5,+164,-196,Rocket Arena,3417,1,0,,,,,,CLE,DAL,112.0,116.5
+401909982,2026-11-15T01:00Z,STATUS_SCHEDULED,MIA,DET,14,8,DraftKings,DET -3.5,3.5,229.5,+146,-173,Kaseya Center,3438,1,0,,,,,,MIA,DET,113.0,116.5
+401909983,2026-11-15T01:00Z,STATUS_SCHEDULED,MEM,BKN,29,17,DraftKings,MEM -2.5,-2.5,228.5,-148,+125,FedExForum,1392,1,0,,,,,,MEM,BKN,115.5,113.0
+401909984,2026-11-15T01:00Z,STATUS_SCHEDULED,MIN,CHI,16,4,DraftKings,MIN -15.5,-15.5,235.5,-1020,+660,Target Center,2029,1,0,,,,,,MIN,CHI,125.5,110.0
