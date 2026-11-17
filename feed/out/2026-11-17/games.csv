@@ -1,0 +1,6 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401910002,2026-11-18T00:30Z,STATUS_SCHEDULED,TOR,NY,28,18,Draft Kings,NY -4.5,4.5,214.5,+150,-179,Scotiabank Arena,1838,1,0,,,,,,TOR,NY,105.0,109.5
+401910003,2026-11-18T01:00Z,STATUS_SCHEDULED,MIN,POR,16,22,Draft Kings,MIN -2.5,-2.5,225.5,-146,+123,Target Center,2029,1,0,,,,,,MIN,POR,114.0,111.5
+401910004,2026-11-18T01:00Z,STATUS_SCHEDULED,SA,DET,24,8,Draft Kings,SA -9.5,-9.5,221.5,-437,+340,Frost Bank Center,780,1,0,,,,,,SA,DET,115.5,106.0
+401910006,2026-11-18T03:30Z,STATUS_SCHEDULED,LAC,UTAH,12,26,Draft Kings,LAC -6.5,-6.5,225.5,-238,+197,Intuit Dome,10642,1,0,,,,,,LAC,UTAH,116.0,109.5
+401910005,2026-11-18T04:00Z,STATUS_SCHEDULED,LAL,CHA,13,30,Draft Kings,LAL -7.5,-7.5,221.5,-289,+236,crypto.com Arena,1841,1,0,,,,,,LAL,CHA,114.5,107.0
