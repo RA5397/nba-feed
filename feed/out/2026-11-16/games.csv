@@ -1,9 +1,9 @@
-event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
-401909994,2026-11-17T00:00Z,STATUS_SCHEDULED,BOS,ORL,2,19,Draft Kings,BOS -8.5,-8.5,213.5,-375,+298,TD Garden,1824,1,0,,,,,,BOS,ORL,111.0,102.5
-401909995,2026-11-17T00:00Z,STATUS_SCHEDULED,CLE,CHI,5,4,Draft Kings,CLE -8.5,-8.5,241.5,-344,+276,Rocket Arena,3417,1,0,,,,,,CLE,CHI,125.0,116.5
-401909996,2026-11-17T00:00Z,STATUS_SCHEDULED,WSH,MEM,27,29,Draft Kings,MEM -3.5,3.5,232.5,+131,-155,Capital One Arena,1823,1,0,,,,,,WAS,MEM,114.5,118.0
-401909997,2026-11-17T00:30Z,STATUS_SCHEDULED,BKN,PHI,17,20,Draft Kings,PHI -4.5,4.5,226.5,+180,-217,Barclays Center,3559,1,0,,,,,,BKN,PHI,111.0,115.5
-401909998,2026-11-17T00:30Z,STATUS_SCHEDULED,MIA,HOU,14,10,Draft Kings,HOU -2.5,2.5,232.5,+110,-130,Kaseya Center,3438,1,0,,,,,,MIA,HOU,115.0,117.5
-401909999,2026-11-17T01:00Z,STATUS_SCHEDULED,MIN,POR,16,22,Draft Kings,MIN -2.5,-2.5,227.5,-135,+114,Target Center,2029,1,0,,,,,,MIN,POR,115.0,112.5
-401910000,2026-11-17T01:00Z,STATUS_SCHEDULED,NO,GS,3,9,Draft Kings,GS -3.5,3.5,223.5,+136,-161,Smoothie King Center,985,1,0,,,,,,NO,GS,110.0,113.5
-401910001,2026-11-17T02:00Z,STATUS_SCHEDULED,DEN,PHX,7,21,Draft Kings,DEN -9.5,-9.5,229.5,-408,+320,Ball Arena,892,1,0,,,,,,DEN,PHX,119.5,110.0
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse
+401909994,2026-11-17T00:00Z,STATUS_FINAL,BOS,ORL,2,19,,,,,,,TD Garden,1824,1,0,,,,,,BOS,ORL
+401909995,2026-11-17T00:00Z,STATUS_FINAL,CLE,CHI,5,4,,,,,,,Rocket Arena,3417,1,0,,,,,,CLE,CHI
+401909996,2026-11-17T00:00Z,STATUS_FINAL,WSH,MEM,27,29,,,,,,,Capital One Arena,1823,1,0,,,,,,WAS,MEM
+401909997,2026-11-17T00:30Z,STATUS_FINAL,BKN,PHI,17,20,,,,,,,Barclays Center,3559,1,0,,,,,,BKN,PHI
+401909998,2026-11-17T00:30Z,STATUS_FINAL,MIA,HOU,14,10,,,,,,,Kaseya Center,3438,1,0,,,,,,MIA,HOU
+401909999,2026-11-17T01:00Z,STATUS_FINAL,MIN,POR,16,22,,,,,,,Target Center,2029,1,0,,,,,,MIN,POR
+401910000,2026-11-17T01:00Z,STATUS_FINAL,NO,GS,3,9,,,,,,,Smoothie King Center,985,1,0,,,,,,NO,GS
+401910001,2026-11-17T02:00Z,STATUS_IN_PROGRESS,DEN,PHX,7,21,,,,,,,Ball Arena,892,1,0,,,,,,DEN,PHX
