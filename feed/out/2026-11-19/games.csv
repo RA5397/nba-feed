@@ -1,0 +1,5 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401910019,2026-11-20T01:00Z,STATUS_SCHEDULED,MEM,GS,29,9,DraftKings,MEM -5.5,-5.5,224.5,-217,+180,FedExForum,1392,1,0,,,,,,MEM,GS,115.0,109.5
+401910020,2026-11-20T01:00Z,STATUS_SCHEDULED,MIL,POR,15,22,DraftKings,POR -11.5,11.5,230.5,+378,-494,Fiserv Forum,5777,1,0,,,,,,MIL,POR,109.5,121.0
+401910021,2026-11-20T01:00Z,STATUS_SCHEDULED,MIN,NY,16,18,DraftKings,NY -1.5,1.5,216.5,-104,-113,Target Center,2029,1,0,,,,,,MIN,NY,107.5,109.0
+401910022,2026-11-20T01:00Z,STATUS_SCHEDULED,SA,LAC,24,12,DraftKings,SA -15.5,-15.5,224.5,-1040,+670,Frost Bank Center,780,1,0,,,,,,SA,LAC,120.0,104.5
