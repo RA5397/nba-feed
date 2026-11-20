@@ -1,0 +1,10 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909305,2026-11-21T00:00Z,STATUS_SCHEDULED,ATL,CHA,1,30,Draft Kings,ATL -7.5,-7.5,218.5,-249,+205,State Farm Arena,1827,1,0,,,,,,ATL,CHA,113.0,105.5
+401909306,2026-11-21T00:30Z,STATUS_SCHEDULED,BKN,ORL,17,19,Draft Kings,ORL -6.5,6.5,223.5,+217,-264,Barclays Center,3559,1,0,,,,,,BKN,ORL,108.5,115.0
+401909307,2026-11-21T00:30Z,STATUS_SCHEDULED,CLE,IND,5,11,Draft Kings,CLE -5.5,-5.5,234.5,-230,+191,Rocket Arena,3417,1,0,,,,,,CLE,IND,120.0,114.5
+401909308,2026-11-21T00:30Z,STATUS_SCHEDULED,DET,TOR,8,28,Draft Kings,DET -6.5,-6.5,216.5,-264,+217,Little Caesars Arena,5404,1,0,,,,,,DET,TOR,111.5,105.0
+401909309,2026-11-21T01:00Z,STATUS_SCHEDULED,CHI,WSH,4,27,Draft Kings,CHI -2.5,-2.5,238.5,-135,+114,United Center,1847,1,0,,,,,,CHI,WAS,120.5,118.0
+401909310,2026-11-21T01:00Z,STATUS_SCHEDULED,OKC,NO,25,3,Draft Kings,OKC -11.5,-11.5,227.5,-598,+443,Paycom Center,2559,1,0,,,,,,OKC,NO,119.5,108.0
+401909311,2026-11-21T02:30Z,STATUS_SCHEDULED,UTAH,PHX,26,21,Draft Kings,PHX -4.5,4.5,225.5,+154,-184,Delta Center,3093,1,0,,,,,,UTAH,PHX,110.5,115.0
+401909312,2026-11-21T03:00Z,STATUS_SCHEDULED,DEN,HOU,7,10,Draft Kings,DEN -1.5,-1.5,226.5,-125,+105,Ball Arena,892,1,0,,,,,,DEN,HOU,114.0,112.5
+401909313,2026-11-21T03:00Z,STATUS_SCHEDULED,LAL,SAC,13,23,Draft Kings,LAL -14.5,-14.5,229.5,-890,+600,crypto.com Arena,1841,1,0,,,,,,LAL,SAC,122.0,107.5
