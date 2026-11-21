@@ -1,0 +1,7 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401910023,2026-11-21T18:00Z,STATUS_IN_PROGRESS,PHI,MIL,20,15,,,,,,,Xfinity Mobile Arena,1845,1,0,,,,,,PHI,MIL,,
+401910024,2026-11-22T00:30Z,STATUS_SCHEDULED,NY,POR,18,22,Draft Kings,NY -3.5,-3.5,215.5,-156,+131,Madison Square Garden,1830,1,0,,,,,,NY,POR,109.5,106.0
+401910025,2026-11-22T01:00Z,STATUS_SCHEDULED,DAL,LAC,6,12,Draft Kings,DAL -4.5,-4.5,230.5,-196,+164,American Airlines Center,516,1,0,,,,,,DAL,LAC,117.5,113.0
+401910026,2026-11-22T01:00Z,STATUS_SCHEDULED,MIN,MEM,16,29,Draft Kings,MIN -6.5,-6.5,228.5,-237,+196,Target Center,2029,1,0,,,,,,MIN,MEM,117.5,111.0
+401910027,2026-11-22T01:00Z,STATUS_SCHEDULED,SA,NO,24,3,Draft Kings,SA -18.5,-18.5,228.5,-1740,+950,Frost Bank Center,780,1,0,,,,,,SA,NO,123.5,105.0
+401910028,2026-11-22T03:00Z,STATUS_SCHEDULED,SAC,BOS,23,2,Draft Kings,BOS -13.5,13.5,217.5,+554,-790,Golden 1 Center,5310,1,0,,,,,,SAC,BOS,102.0,115.5
