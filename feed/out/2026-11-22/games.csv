@@ -1,8 +1,8 @@
-event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
-401910029,2026-11-22T20:30Z,STATUS_SCHEDULED,ATL,DET,1,8,DraftKings,DET -2.5,2.5,224.5,+114,-135,State Farm Arena,1827,1,0,,,,,,ATL,DET,111.0,113.5
-401910030,2026-11-22T23:00Z,STATUS_SCHEDULED,MIA,OKC,14,25,DraftKings,MIA -3.5,-3.5,231.5,-173,+146,Kaseya Center,3438,1,0,,,,,,MIA,OKC,117.5,114.0
-401910031,2026-11-23T00:00Z,STATUS_SCHEDULED,WSH,ORL,27,19,DraftKings,ORL -4.5,4.5,220.5,+165,-197,Capital One Arena,1823,1,0,,,,,,WAS,ORL,108.0,112.5
-401910032,2026-11-23T00:00Z,STATUS_SCHEDULED,CHI,DEN,4,7,DraftKings,DEN -9.5,9.5,235.5,+340,-437,United Center,1847,1,0,,,,,,CHI,DEN,113.0,122.5
-401910033,2026-11-23T00:00Z,STATUS_SCHEDULED,UTAH,DAL,26,6,DraftKings,DAL -1.5,1.5,225.5,+110,-130,Delta Center,3093,1,0,,,,,,UTAH,DAL,112.0,113.5
-401910034,2026-11-23T01:00Z,STATUS_SCHEDULED,NY,IND,18,11,DraftKings,NY -7.5,-7.5,213.5,-296,+240,Madison Square Garden,1830,1,0,,,,,,NY,IND,110.5,103.0
-401910035,2026-11-23T01:30Z,STATUS_SCHEDULED,GS,BOS,9,2,DraftKings,BOS -8.5,8.5,210.5,+276,-344,Chase Center,6270,1,0,,,,,,GS,BOS,101.0,109.5
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse
+401910029,2026-11-22T20:30Z,STATUS_FINAL,ATL,DET,1,8,,,,,,,State Farm Arena,1827,1,0,,,,,,ATL,DET
+401910030,2026-11-22T23:00Z,STATUS_FINAL,MIA,OKC,14,25,,,,,,,Kaseya Center,3438,1,0,,,,,,MIA,OKC
+401910031,2026-11-23T00:00Z,STATUS_IN_PROGRESS,WSH,ORL,27,19,,,,,,,Capital One Arena,1823,1,0,,,,,,WAS,ORL
+401910032,2026-11-23T00:00Z,STATUS_IN_PROGRESS,CHI,DEN,4,7,,,,,,,United Center,1847,1,0,,,,,,CHI,DEN
+401910033,2026-11-23T00:00Z,STATUS_IN_PROGRESS,UTAH,DAL,26,6,,,,,,,Delta Center,3093,1,0,,,,,,UTAH,DAL
+401910034,2026-11-23T01:00Z,STATUS_IN_PROGRESS,NY,IND,18,11,,,,,,,Madison Square Garden,1830,1,0,,,,,,NY,IND
+401910035,2026-11-23T01:30Z,STATUS_IN_PROGRESS,GS,BOS,9,2,,,,,,,Chase Center,6270,1,0,,,,,,GS,BOS
