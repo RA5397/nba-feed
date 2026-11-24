@@ -1,0 +1,4 @@
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
+401909314,2026-11-25T00:00Z,STATUS_SCHEDULED,ORL,DET,19,8,DraftKings,DET -1.5,1.5,213.5,+110,-130,Kia Center,3432,1,0,,,,,,ORL,DET,106.0,107.5
+401909315,2026-11-25T01:00Z,STATUS_SCHEDULED,WSH,BOS,27,2,DraftKings,BOS -10.5,10.5,217.5,+351,-453,Capital One Arena,1823,1,0,,,,,,WAS,BOS,103.5,114.0
+401909316,2026-11-25T03:00Z,STATUS_SCHEDULED,DEN,DAL,7,6,DraftKings,DEN -8.5,-8.5,231.5,-322,+260,Ball Arena,892,1,0,,,,,,DEN,DAL,120.0,111.5
