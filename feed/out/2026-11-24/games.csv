@@ -1,4 +1,4 @@
-event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
-401909314,2026-11-25T00:00Z,STATUS_SCHEDULED,ORL,DET,19,8,Draft Kings,DET -2.5,2.5,212.5,+110,-130,Kia Center,3432,1,0,,,,,,ORL,DET,105.0,107.5
-401909315,2026-11-25T01:00Z,STATUS_SCHEDULED,WSH,BOS,27,2,Draft Kings,BOS -11.5,11.5,218.5,+351,-452,Capital One Arena,1823,1,0,,,,,,WAS,BOS,103.5,115.0
-401909316,2026-11-25T03:00Z,STATUS_SCHEDULED,DEN,DAL,7,6,Draft Kings,DEN -8.5,-8.5,234.5,-310,+251,Ball Arena,892,1,0,,,,,,DEN,DAL,121.5,113.0
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse
+401909314,2026-11-25T00:00Z,STATUS_FINAL,ORL,DET,19,8,,,,,,,Kia Center,3432,1,0,,,,,,ORL,DET
+401909315,2026-11-25T01:00Z,STATUS_FINAL,WSH,BOS,27,2,,,,,,,Capital One Arena,1823,1,0,,,,,,WAS,BOS
+401909316,2026-11-25T03:00Z,STATUS_IN_PROGRESS,DEN,DAL,7,6,,,,,,,Ball Arena,892,1,0,,,,,,DEN,DAL
