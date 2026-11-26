@@ -1,10 +1,10 @@
-event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse,implied_home,implied_away
-401909317,2026-11-25T22:00Z,STATUS_IN_PROGRESS,PHI,MIA,20,14,,,,,,,Xfinity Mobile Arena,1845,1,0,,,,,,PHI,MIA,,
-401909318,2026-11-26T00:00Z,STATUS_SCHEDULED,CHA,CHI,30,4,Draft Kings,CHA -3.5,-3.5,218.5,-180,+151,Spectrum Center,1893,1,0,,,,,,CHA,CHI,111.0,107.5
-401909319,2026-11-26T00:30Z,STATUS_SCHEDULED,NY,CLE,18,5,Draft Kings,NY -4.5,-4.5,219.5,-180,+151,Madison Square Garden,1830,1,0,,,,,,NY,CLE,112.0,107.5
-401909320,2026-11-26T00:30Z,STATUS_SCHEDULED,OKC,MIN,25,16,Draft Kings,OKC -2.5,-2.5,222.5,-135,+114,Paycom Center,2559,1,0,,,,,,OKC,MIN,112.5,110.0
-401909321,2026-11-26T01:00Z,STATUS_SCHEDULED,MEM,LAC,29,12,Draft Kings,MEM -7.5,-7.5,227.5,-269,+220,FedExForum,1392,1,0,,,,,,MEM,LAC,117.5,110.0
-401909322,2026-11-26T01:00Z,STATUS_SCHEDULED,MIL,BKN,15,17,Draft Kings,MIL -1.5,-1.5,234.5,-117,-101,Fiserv Forum,5777,1,0,,,,,,MIL,BKN,118.0,116.5
-401909323,2026-11-26T01:30Z,STATUS_SCHEDULED,HOU,PHX,10,21,Draft Kings,HOU -9.5,-9.5,222.5,-395,+312,Toyota Center (Houston),1394,1,0,,,,,,HOU,PHX,116.0,106.5
-401909324,2026-11-26T03:00Z,STATUS_SCHEDULED,GS,SAC,9,23,Draft Kings,GS -7.5,-7.5,215.5,-324,+261,Chase Center,6270,1,0,,,,,,GS,SAC,111.5,104.0
-401909325,2026-11-26T03:00Z,STATUS_SCHEDULED,POR,SA,22,24,Draft Kings,SA -3.5,3.5,225.5,+136,-162,Moda Center,3423,1,0,,,,,,POR,SA,111.0,114.5
+event_id,tip_utc,status,home,away,home_team_id,away_team_id,provider,details,spread_home,total,ml_home,ml_away,venue,venue_id,dome,neutral_site,wx_temp_f,wx_condition,wx_condition_id,wx_wind_mph,wx_precip_pct,home_nflverse,away_nflverse
+401909317,2026-11-25T22:00Z,STATUS_FINAL,PHI,MIA,20,14,,,,,,,Xfinity Mobile Arena,1845,1,0,,,,,,PHI,MIA
+401909318,2026-11-26T00:00Z,STATUS_FINAL,CHA,CHI,30,4,,,,,,,Spectrum Center,1893,1,0,,,,,,CHA,CHI
+401909319,2026-11-26T00:30Z,STATUS_FINAL,NY,CLE,18,5,,,,,,,Madison Square Garden,1830,1,0,,,,,,NY,CLE
+401909320,2026-11-26T00:30Z,STATUS_FINAL,OKC,MIN,25,16,,,,,,,Paycom Center,2559,1,0,,,,,,OKC,MIN
+401909321,2026-11-26T01:00Z,STATUS_FINAL,MEM,LAC,29,12,,,,,,,FedExForum,1392,1,0,,,,,,MEM,LAC
+401909322,2026-11-26T01:00Z,STATUS_FINAL,MIL,BKN,15,17,,,,,,,Fiserv Forum,5777,1,0,,,,,,MIL,BKN
+401909323,2026-11-26T01:30Z,STATUS_IN_PROGRESS,HOU,PHX,10,21,,,,,,,Toyota Center (Houston),1394,1,0,,,,,,HOU,PHX
+401909324,2026-11-26T03:00Z,STATUS_IN_PROGRESS,GS,SAC,9,23,,,,,,,Chase Center,6270,1,0,,,,,,GS,SAC
+401909325,2026-11-26T03:00Z,STATUS_IN_PROGRESS,POR,SA,22,24,,,,,,,Moda Center,3423,1,0,,,,,,POR,SA
